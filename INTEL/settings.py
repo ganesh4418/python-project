@@ -59,7 +59,7 @@ AXES_LOGIN_FAILURE_LIMIT = 50
 
 CORS_ALLOW_ALL_ORIGINS = True  # You can change this to True for all origins (not recommended for production)
 CORS_ALLOW_CREDENTIALS = True  # If you need to send cookies or authentication headers
-CORS_ALLOWED_ORIGINS = ["http://123.201.192.65:8181"]  # Replace with the actual domain of your frontend application
+#CORS_ALLOWED_ORIGINS = ["http://123.201.192.65:8181"]  # Replace with the actual domain of your frontend application
 
 SESSION_EXPIRE_AT_BROWSER_CLOSE = True
 
@@ -88,16 +88,16 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'INTEL.wsgi.application'
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',  # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
-        'NAME': 'intel2',  # Or path to database file if using sqlite3.
-        'USER': 'postgres',  # Not used with sqlite3.
-        'PASSWORD': 'root',  # Not used with sqlite3.
-        'HOST': 'localhost',  # Set to empty string for localhost. Not used with sqlite3.
-        'PORT': '5432',  # Set to empty string for default. Not used with sqlite3.
-    }
-}
+#DATABASES = {
+    #'default': {
+       # 'ENGINE': 'django.db.backends.postgresql_psycopg2',  # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
+        #'NAME': 'intel2',  # Or path to database file if using sqlite3.
+        #'USER': 'postgres',  # Not used with sqlite3.
+        #'PASSWORD': 'root',  # Not used with sqlite3.
+       # 'HOST': 'localhost',  # Set to empty string for localhost. Not used with sqlite3.
+       # 'PORT': '5432',  # Set to empty string for default. Not used with sqlite3.
+  #  }
+#}
 
 # {
 #     'default': {
